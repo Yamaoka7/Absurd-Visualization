@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+# Create data for a colorful pie chart
+labels = ['Happy', 'Excited', 'Confused', 'Sleepy']
+sizes = [30, 20, 10, 40]
+colors = ['gold', 'lightcoral', 'lightskyblue', 'lightgreen']
+
+# Plot the absurd pie chart
+plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
+plt.title('Emotional State Distribution')
+plt.show()
